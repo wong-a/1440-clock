@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+.hour-prog-bar-wrap {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.hour-prog-bar-wrap .hour-prog-bar-label {
+  float: left;
+  font-size: 10pt;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.hour-prog-bar-wrap .hour-prog-bar {
+  background-color: #0e3a5c;
+  width: 100%;
+}
+
+.hour-prog-bar-wrap .hour-prog-bar-fill-complete {
+  background-color: black;
+  /* #346388 */
+  height: 30px;
+  width: 100%;
+}
+
+.settings-container {
+  position: relative;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2em;
+}

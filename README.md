@@ -5,40 +5,12 @@
 
 ## About
 
-I wanted a simple visualization of the 1,440 precious minutes each of us has in
-a day. By default, these clocks show you a visual countdown of the minutes you
-have remaining before midnight.
+A New Tab extension for Chrome that shows a visualizes the 1,440 precious
+minutes each of us has in a day. By default, these clocks show you a visual
+countdown of the minutes you have remaining before midnight.
 
-## Usage
-
-There are two clocks available:
-
--   **Default:** https://robatron.github.io/1440-clock/
--   **Bars:** https://robatron.github.io/1440-clock/bars
-
-To configure these clocks you can use the following query parameters:
-
--   `dh` - Number of hours to display
--   `hw` - Hide words in the UI, display only the clock
--   `sh` - Starting hour
--   `sm` - Starting minute
-
-### Examples
-
-Default clock, 8-hour workday, from 07:15 to 15:15:
-
--   https://robatron.github.io/1440-clock/?dh=8&sh=7&sm=15
-
-Bars clock, 8-hour workday, from 06:00 to 21:00:
-
--   https://robatron.github.io/1440-clock/bars?dh=15&sh=6
+A fork of [robatron/1440-clock](https://github.com/robatron/1440-clock).
 
 ## Screenshots
-
-Default clock example:
-
-<img src="./img/ss-default.png" width="250">
-
-"Bars" clock example:
 
 <img src="./img/ss-bars.png" width="250">

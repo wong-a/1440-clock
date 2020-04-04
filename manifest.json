@@ -1,0 +1,14 @@
+{
+  "name": "1440 Clock",
+  "version": "1.0",
+  "description": "A minimalist New Tab page that visualize the 1,440 precious minutes each of us has in a day",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "storage", "declarativeContent"],
+  "chrome_url_overrides": {
+    "newtab": "src/html/index.html"
+  },
+  "page_action": {
+    "default_popup": "src/html/options.html"
+  },
+  "options_page": "src/html/options.html"
+}
